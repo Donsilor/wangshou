@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* 静江网络技术支持 http://www.54jj.cn 2017-06-24 */
+html{ width:100%;}
+body{width:100%;height:100%;max-width:640px;margin:auto;font-family:Microsoft YaHei,Arial;position:relative;background:#EBEBEB;}
+*{ box-sizing:border-box; margin:0; padding:0;}
+.clear{ clear:both;}
+a{ text-decoration:none;}
+li{list-style: none;}
+input{border:0;cursor:pointer;}
+input,select,option,textarea{outline: none;}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+.fl{float:left;}
+.fr{float:right;}
+.w{width: 100%;max-width: 640px;margin: auto;}
+
+/*index头部*/
+.header{position:fixed;top:0;width:100%;max-width:640px;height:2.5rem;margin:auto;background:#FD7400;}
+.header a{display:block;}
+.header .code{width:2rem;height:2rem;background:url(../images/code.png)no-repeat center/auto 80%;margin:0.25rem .5rem 0;}
+.header .search{width:75%;height:1.8rem;margin-top:0.35rem;border-radius:0.2rem;line-height:2rem;font-size:1rem;background-color:rgba(0,0,0,.2);}
+.header .search button{float: left;width: 1.8rem;height: 1.8rem;background: url("../images/search.png") no-repeat center 40%/auto 70%;border: none;}
+.header .search input{float: left;width: calc(100% - 1.8rem);height: 100%;background: none;color: #fff;}
+
+/*index底部*/
+.footer{position:fixed;;bottom:0;width:100%;max-width:640px;height:4rem;margin:auto;background:#f6f6f6;}
+.footer a{display:block;width:calc(100%/5);height:4rem;float:left;text-align:center;font-size:1rem;color:#A0A0A0;padding-top:2.5rem;}
+
+.footer .a1{background:url(../images/icon-1.png)no-repeat center 0.4rem;background-size:2rem;}
+.footer .a2{background:url(../images/icon-2.png)no-repeat center 0.4rem;background-size:2rem;}
+.footer .a3{background:url(../images/icon-3.png)no-repeat center 0.4rem;background-size:2rem;}
+.footer .a4{background:url(../images/icon-4.png)no-repeat center 0.4rem;background-size:2rem;}
+.footer .a5{background:url(../images/icon-5.png)no-repeat center 0.4rem;background-size:2rem;}
+.footer .a1.cur{background:url(../images/icon-1.1.png)no-repeat center 0.4rem;background-size:2rem;}
+.footer .a2.cur{background:url(../images/icon-2.1.png)no-repeat center 0.4rem;background-size:2rem;}
+.footer .a3.cur{background:url(../images/icon-3.1.png)no-repeat center 0.4rem;background-size:2rem;}
+.footer .a4.cur{background:url(../images/icon-4.1.png)no-repeat center 0.4rem;background-size:2rem;}
+.footer .a5.cur{background:url(../images/icon-5.1.png)no-repeat center 0.4rem;background-size:2rem;}
+
+.placeholder{height: 4rem;}
+
+
+
+

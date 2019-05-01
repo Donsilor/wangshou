@@ -1,0 +1,64 @@
+.header{font-size:1.1rem;color:#fff;text-align:center;line-height:3rem;}
+.lo_content{position:absolute;width:100%;top:3rem;}
+.lo_content .ip{display:block;width:80%;height:2.5rem;border-radius:0.3rem;margin:auto;}
+.lo_content .ip1{margin-top:5rem;font-size:1rem;padding-left:3rem;background:#fff url(../images/user.png)no-repeat 0.5rem center;background-size:2rem;}
+.lo_content .ip2{margin-top:1.5rem;font-size:1rem;padding-left:3rem;background:#fff url(../images/passw.png)no-repeat 0.8rem center;background-size:1.5rem;}
+.lo_content .ip3{margin-top:2rem;font-size:1rem;color:#fff;background:#FD7400;line-height: 2.5rem;text-align: center;}
+.lo_content .select{padding-left:1rem;margin-top:1rem;}
+.lo_content .select span{font-size:.9rem;color:#333;}
+.lo_content .select input{margin:0 0.2rem;vertical-align: middle;}
+.lo_content .select label{font-size:.9rem;color:#333;vertical-align: middle;}
+.lo_content .select input[type=radio]{appearance:none; -moz-appearance:none; -webkit-appearance:none;width:1rem;height:1rem;
+    border:0.01rem solid #ccc;border-radius:50%;}
+.lo_content .select input[type=radio]:checked{background:#FD7400;border:none;}
+.lo_content .select input[type=radio]:checked+label{color:#FD7400;}
+.lo_content .text{width:100%;text-align:center;margin-top:3rem;font-size:.9rem;color:#333;}
+.lo_content .text a{font-size:1.1rem;color:#FD7400;vertical-align: middle;padding:0 0.2rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

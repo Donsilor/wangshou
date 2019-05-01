@@ -1,0 +1,18 @@
+.header{padding: .3rem 0;background-color: #FD7400;height: auto;}
+.header>a.back{width: 2.5rem;height: 1.5rem;background: url("../images/return-1.png") no-repeat center/auto 80%;}
+.header .title{width: calc(100% - 5rem);height: 1.5rem;text-align: center;color: #fff;line-height: 1.5rem;background: none;}
+
+.search{padding: .5rem;background-color: #fff;margin-top: 2rem;}
+.search input[type="text"]{width: 100%;height: 1.8rem;padding-left: 2rem;background: url("../images/icon_search.png") no-repeat 2%/auto 80% #ebebeb;border-radius: 5px;}
+
+.addrList>li{width: calc(100% - 1rem);margin:.5rem auto;background-color: #fff;border-radius: 5px;padding: .5rem;}
+.addrList>li>a{display: block;width: 100%;height: 100%;}
+.addrList>li p{font: .9rem/1.8 'Microsoft YaHei';}
+.addrList>li p:first-child{color: #333;padding-right: 15%;}
+.addrList>li p:last-child{color: #999;font-size: .8rem;}
+.addrList>li p:last-child span{color: #333;}
+.addrList>li p:last-child input[type="radio"]{float: left;width: 1rem;height: 1rem;margin: .1rem 0;-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 1px solid #666;border-radius: 50%;margin-right: .3rem;}
+.addrList>li p:last-child input[type="radio"]:checked{background: url("../images/icon_checked.png") no-repeat center/100% 100%;border: none;}
+
+.addAddr{position: fixed;bottom: 0;left: 0;width: 100%;height: 2.5rem;background-color: #ff4948;color: #fff;text-align: center;font: .9rem/2.5rem 'Microsoft YaHei';}
+

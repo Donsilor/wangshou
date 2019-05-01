@@ -1,0 +1,30 @@
+body{background-color: #fff;}
+
+.header{padding: .3rem 0;background-color: #FD7400;height: auto;}
+.header>a.back{width: 2.5rem;height: 1.5rem;background: url("../images/return-1.png") no-repeat center/auto 80%;}
+.header .title{width: calc(100% - 5rem);height: 1.5rem;text-align: center;color: #fff;line-height: 1.5rem;background: none;}
+
+.auctionList{margin-top: 2rem;}
+.auctionList>li{height: 6rem;border-bottom: 1px solid #e0e0e0;padding: .5rem 3%;background-color: #fff;}
+.auctionList>li>a{display: block;width: 100%;height: 100%;}
+.auctionList>li div.pic{width: 5rem;height: 5rem;}
+.auctionList>li div.pic img{display: block;width: 100%;height: 100%;}
+.auctionList>li div.fr{width: calc(97% - 5rem);}
+.auctionList>li h1{font: .9rem/1 'Microsoft YaHei';color: #000;margin-bottom: 1rem;}
+.auctionList>li p.price{font:bold .9rem/2.5 'Microsoft YaHei';color: #fb3d47;}
+.auctionList>li span{font: .7rem/1 'Microsoft YaHei';color: #666;}
+.auctionList>li span.fl{font-size: .6rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

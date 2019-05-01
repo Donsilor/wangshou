@@ -1,0 +1,53 @@
+.header span{font-size:1.1rem;color:#fff;line-height:3rem;display:block;width:50%;margin:auto;text-align:center;}
+.header a{display:block;width:2rem;height:2rem;background:url(../images/return-1.png)no-repeat center;background-size:2rem;margin:0.5rem 0 0 1rem;}
+.btn{position:absolute;top:3rem;width:100%;}
+.btn .ip{display:block;width:80%;height:2.5rem;border-radius:0.3rem;margin:0 auto 1rem;padding-left:3rem;font-size:.9rem;}
+.btn .ip1{margin-top:3rem;background:#fff url(../images/user.png)no-repeat 0.5rem center;background-size:2rem;}
+.btn .ip2{background:#fff url(../images/passw.png)no-repeat 0.8rem center;background-size:1.5rem;}
+.btn .ip3{background:#fff url(../images/passw-1.png)no-repeat 0.5rem center;background-size:1.8rem;}
+.btn .ip4{background:#fff url(../images/danbao.png)no-repeat 0.5rem center;background-size:1.8rem;}
+.btn .ip5{background:#FD7400;color:#fff;text-align:center;padding:0;box-shadow:0 2px 5px #525252; }
+.btn .text{width:100%;text-align:center;margin-top:2rem;font-size:.9rem;color:#333;}
+.btn .text a{padding:0 0.5rem;font-size:1.1rem;color:#ff7400;}
+
+
+
+
+.btn .yanz{width:80%;height:3rem;margin:0 auto 1rem;}
+.btn .yanz input[type=text]{width:60%;height:2.5rem;border-radius:0.3rem;background:#fff url(../images/yzm.png)no-repeat 0.5rem;background-size:1.8rem;font-size:.9rem;padding-left:3rem;margin-right:2%;}
+.btn .yanz input[type=submit]{width:36%;height:2.5rem;background:#FD7400;border-radius:0.3rem;font-size:0.8rem;color:#fff;text-align:center;line-height:2.5rem;float: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

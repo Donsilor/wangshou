@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/proClassify.css">
+</head>
+<body>
+<div class="search clearfloat">
+    <a href="index.html" class="back fl"></a>
+    <input type="text" placeholder="搜索 宝贝、店铺">
+</div>
+<div class="fixLeft">
+    <a href="javascript:;" class="curState">日用品</a>
+    <a href="javascript:;">卫浴用品</a>
+    <a href="javascript:;">家庭清洁</a>
+    <a href="javascript:;">家务整理</a>
+    <a href="javascript:;">厨房用品</a>
+    <a href="javascript:;">卧室床品</a>
+</div>
+<div class="fixRight">
+    <div class="title">日用市场</div>
+    <div class="contents">
+        <div class="content">
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+        </div>
+        <div class="content">
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+            <a href="cplb.html" class="link"><img src="images/testImg_4.png">雨伞</a>
+        </div>
+        <div class="content">333</div>
+        <div class="content">444</div>
+        <div class="content">555</div>
+        <div class="content">666</div>
+    </div>
+</div>
+<script src="js/jquery.1.9.1.js"></script>
+<script>
+
+    //选项卡切换
+    var $tab = $(".fixLeft a");
+    $tab.click(function () {
+        $(this).addClass("curState").siblings().removeClass("curState");
+        var index = $tab.index(this);
+        $(".fixRight .contents .content").eq(index).show().siblings().hide();
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{background-color: #fff;}
+
+.header{padding: .3rem 0;background-color: #FD7400;height: auto;}
+.header>a.back{width: 2.5rem;height: 1.5rem;background: url("../images/return-1.png") no-repeat center/auto 80%;}
+.header .title{float: left;width: calc(100% - 5rem);height: 1.5rem;text-align: center;color: #fff;line-height: 1.5rem;}
+
+
+.options{background-color: #fafafa;margin-top: 2rem;}
+.options a{float: left;width: 50%;text-align: center;font: .8rem/3 'Microsoft YaHei';color: #000;}
+.options a.curA{border-bottom: 2px solid #ff7400;color: #ff7400;}
+
+.tabContents>.tabCont:first-of-type{background-color: #ebebeb;}
+.tabContents>.tabCont:not(:first-of-type){display: none;}
+
+
+.intro{padding: .4rem;background-color: #fff;}
+.intro h3{font: .8rem/1.2 'Microsoft YaHei';color: #3e3e3e;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow:hidden;text-overflow: clip;}
+.intro p.price{font: 1.2rem/1.5 'Microsoft YaHei';color: #ff730c;padding-top: .5rem;}
+.intro span{font: .7rem/1.5 'Microsoft YaHei';color: #929292;}
+
+.choose{background-color: #fff;margin: .3rem 0;}
+.choose .link{display: block;padding: 0 .5rem;font: .8rem/3 'Microsoft YaHei';color: #3d3d3d;background: url("../images/icon_link.png") no-repeat 97%/auto 45%;}
+
+.line,.data{background-color: #fff;}
+.line{text-align: center;padding: .5rem 0;border-bottom: 1px solid #ebebeb;}
+.line a{display: inline-block;width: 6rem;height: 1.8rem;border: 1px solid #ff7000;border-radius: 5px;text-align: center;font: .8rem/calc(1.8rem - 2px) 'Microsoft YaHei';color: #ff7000;}
+.data{padding: 0 .5rem;padding-bottom: 3rem;}
+.data p{font: .8rem/3 'Microsoft YaHei';color: #383838;}
+.data>div{float: left;width: 33.33%;text-align: center;font: .7rem/1 'Microsoft YaHei';color: #949494;}
+.data>div p{font-size: 1rem;line-height: 2;color: #343434;}
+
+.botMenu{position: fixed;right: 0;bottom: 0;left: 0;height: 3rem;background-color: #fff;}
+.botMenu a{height: 100%;}
+.botMenu .aLink{width: 15%;font-size: .8rem;color: #7a7a7a;text-align: center;padding-top: 1.6rem;}
+.botMenu .icon1{background: url("../images/icon_24.png") no-repeat center 20%/auto 40%;}
+.botMenu .icon2{background: url("../images/icon_25.png") no-repeat center 20%/auto 40%;}
+.botMenu .aBtn{width: 35%;font: 1rem/3rem 'Microsoft YaHei';color: #fff;text-align: center;}
+.botMenu .btn1{background-color: #fd7400;}
+.botMenu .btn2{background-color: #f13f3f;}
+
+.detail{font: .8rem/1.5 'Microsoft YaHei';padding: .3rem;}
+.detail img{max-width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

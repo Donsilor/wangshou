@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <title>首页</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/proDetail.css">
+
+    <script src="js/jquery.1.9.1.js"></script>
+    <script src="js/jquery.lunzhuan.min.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
+</head>
+<body>
+
+<div class="w">
+    <div class="header">
+        <a href="cplb.html" class="fl back"></a>
+        <p class="title">商品详情</p>
+    </div>
+    <div class="options clearfloat">
+        <a href="javascript:;" class="curA">商品</a>
+        <a href="javascript:;">详情</a>
+    </div>
+    <div class="tabContents">
+        <div class="tabCont">
+            <div class="banner clearfloat">
+                <ul class="bxslider clearfloat">
+                    <li class="bannerli">
+                        <a href="javascript:;"><img src="images/testImg_9.jpg"></a>
+                    </li>
+                    <li class="bannerli">
+                        <a href="javascript:;"><img src="images/testImg_9.jpg"></a>
+                    </li>
+                    <li class="bannerli">
+                        <a href="javascript:;"><img src="images/testImg_9.jpg"></a>
+                    </li>
+                    <li class="bannerli">
+                        <a href="javascript:;"><img src="images/testImg_9.jpg"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="intro">
+                <h3>小黑伞爆款啦！19.99江浙沪皖一把起包邮，新疆内蒙西藏甘肃海南三把起包邮，其他省两把起包邮！爆款12个花样</h3>
+                <p class="price">￥ 19.99</p>
+                <span>市场价 <s>￥ 168.0</s></span>
+            </div>
+            <div class="choose">
+                <a href="javascript:;" class="link">请选择规格</a>
+            </div>
+            <div class="line">
+                <a href="javascript:;">加入个人商城</a>
+                <a href="javascript:;">海报生成</a>
+            </div>
+            <div class="data clearfloat">
+                <p>大宋</p>
+                <div>
+                    <p>100</p>
+                    所有商品
+                </div>
+                <div>
+                    <p>647</p>
+                    累计销量
+                </div>
+                <div>
+                    <p>4</p>
+                    收藏人数
+                </div>
+            </div>
+            <div class="botMenu">
+                <a href="javascript:;" class="fl aLink icon1">店铺</a>
+                <a href="javascript:;" class="fl aLink icon2">客服</a>
+                <a href="javascript:;" class="fl aBtn btn1">加入购物车</a>
+                <a href="javascript:;" class="fl aBtn btn2">立即购买</a>
+            </div>
+        </div>
+        <div class="tabCont">
+            <div class="detail">
+                蓝天白云已经没货了，下单请不要留言蓝天白云
+                <img src="images/testImg_10.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        var slider = $('.bxslider').bxSlider({
+            mode: 'horizontal',
+            captions: true,
+            auto: true,
+            speed: 500,
+            controls: false,
+            pause: 5000,
+            onSliderLoad: function () {
+                $(".bx-pager-item a").click(function () {
+                    var thumbIndex = $('.bx-pager-item a').index(this);
+                    slider.goToSlide(thumbIndex);
+                    slider.startAuto();
+                    $('.bx-pager-item a').removeClass('active');
+                    $(this).addClass('active');
+                    return false;
+                });
+                $(".bx-wrapper a.bx-next,.bx-wrapper a.bx-prev").click(function () {
+                    var thumbIndex = $('.bx-pager-item a.active').parent().index();
+                    slider.goToSlide(thumbIndex);
+                    slider.startAuto();
+                    $('.bx-pager-item a').removeClass('active');
+                    $('.bx-pager-item').eq(thumbIndex).find('a').addClass('active');
+                    return false;
+                });
+            }
+        });
+    });
+
+    // banner调用
+    $('.hiSlider1').hiSlider();
+
+    //选项卡切换
+    var $tab = $(".options>a");
+    $tab.click(function () {
+        $(this).addClass("curA").siblings().removeClass("curA");
+        var index = $tab.index(this);
+        $(".tabContents>.tabCont").eq(index).show().siblings(".tabCont").hide();
+    });
+
+
+
+</script>
+
+</body>
+</html>

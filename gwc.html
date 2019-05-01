@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/gwc.css">
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <a href="javascript:;" class="fr" id="editAll">编辑</a>
+    <span>购物车</span>
+</div>
+
+<!--内容-->
+<div class="content">
+    <ul>
+        <li>
+            <div class="shop clearfloat">
+                <input type="checkbox" class="ip1 fl">
+                <a href="javascript:;" class="a1 fl"><span class="sp1 fl"></span><span class="sp2 fl">大宋</span><span class="sp3 fl"></span></a>
+                <a href="javascript:;" class="a2 fr editCur">编辑</a>
+            </div>
+            <div class="details clearfloat">
+                <div class="dv1 fl"><input type="checkbox" name="" ></div>
+                <div class="dv2 fl"><img src="images/chanping-1.png" alt="" ></div>
+                <div class="name fl">
+                    <p class="title">小黑伞爆款啦！19.9江浙沪皖一把起包邮，发了就算了</p>
+                    <p class="number">19.99 <span>X1</span></p>
+                    <p class="color clearfloat"><span class="sp1 fl">168.0</span><span class="sp2 fr">颜色：<i>贝拉米红</i></span></p>
+                </div>
+                <div class="adjust clearfloat fl">
+                    <span class="minus fl">-</span>
+                    <input type="text" class="number fl" disabled value="1">
+                    <span class="add fr">+</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="shop clearfloat">
+                <input type="checkbox" class="ip1 fl">
+                <a href="javascript:;" class="a1 fl"><span class="sp1 fl"></span><span class="sp2 fl">正在办公</span><span class="sp3 fl"></span></a>
+                <a href="javascript:;" class="a2 fr editCur">编辑</a>
+            </div>
+            <div class="details clearfloat">
+                <div class="dv1 fl"><input type="checkbox" name="" ></div>
+                <div class="dv2 fl"><img src="images/chanping-1.png" alt="" ></div>
+                <div class="name fl">
+                    <p class="title">小黑伞爆款啦！19.9江浙沪皖一把起包邮，发了就算了</p>
+                    <p class="number">19.99 <span>X1</span></p>
+                    <p class="color clearfloat"><span class="sp1 fl">168.0</span><span class="sp2 fr">颜色：<i>贝拉米红</i></span></p>
+                </div>
+                <div class="adjust clearfloat fl">
+                    <span class="minus fl">-</span>
+                    <input type="text" class="number fl" disabled value="1">
+                    <span class="add fr">+</span>
+                </div>
+            </div>
+            <div class="details clearfloat">
+                <div class="dv1 fl"><input type="checkbox" name="" ></div>
+                <div class="dv2 fl"><img src="images/chanping-2.png" alt="" ></div>
+                <div class="name fl">
+                    <p class="title">金煌芒果8斤中果秒杀开始！一年四季最说服力卡机舒服多了</p>
+                    <p class="number">49.0 <span>X1</span></p>
+                    <p class="color clearfloat"><span class="sp1 fl">59.0</span><span class="sp2 fr"><i></i></span></p>
+                </div>
+                <div class="adjust clearfloat fl">
+                    <span class="minus fl">-</span>
+                    <input type="text" class="number fl" disabled value="1">
+                    <span class="add fr">+</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<!--全选-支付-->
+<div class="pay clearfloat">
+    <div class="select fl">
+        <input type="checkbox" id="checked" class="select_all">
+        <label for="checked">全选</label>
+    </div>
+    <a href="gwc_fukuan.html" class="btn fr" id="payBtn">支付</a>
+    <div class="total fr">合计：<span>¥0</span></div>
+</div>
+
+<!--底部-->
+<div class="footer">
+    <a href="index.html" class="a1" >商城</a>
+    <a href="tongxunlu.html" class="a2">通讯录</a>
+    <a href="dialogue.html" class="a3">消息</a>
+    <a href="gwc.html" class="a4 cur">购物车</a>
+    <a href="userCenter.html" class="a5">万手</a>
+</div>
+
+<script src="js/jquery.1.9.1.js"></script>
+<script>
+    $(function () {
+
+        $('.content li .editCur').on('click', function () {
+            $(this).parent().parent().children('.details').toggleClass('edit')
+        });
+
+
+        $('#editAll').on('click', function () {
+            $(this).toggleClass('achieve');
+            if ($(this).hasClass('achieve')){
+                $(this).text('完成')
+            } else {
+                $(this).text('编辑')
+            }
+
+            var payBtn = $('#payBtn');
+            var total = $('.total');
+
+            payBtn.toggleClass('delBtn');
+            total.toggle();
+
+            if (payBtn.hasClass('delBtn')) {
+                payBtn.text('删除');
+                payBtn.css('background-color', 'rgb(241,63,63)');
+            } else {
+                payBtn.text('支付');
+                payBtn.css('background-color', '#FD7400');
+            }
+
+        });
+
+    })
+</script>
+
+</body>
+</html>

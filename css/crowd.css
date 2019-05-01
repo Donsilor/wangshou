@@ -1,0 +1,54 @@
+body{background-color: #fff;}
+
+.header{padding: .3rem 0;background-color: #FD7400;height: auto;}
+.header>a.back{width: 2.5rem;height: 1.5rem;background: url("../images/return-1.png") no-repeat center/auto 80%;}
+.header .title{width: calc(100% - 5rem);height: 1.5rem;text-align: center;color: #fff;line-height: 1.5rem;background: none;}
+
+
+.userList{background-color: #fcfcfc;padding: .5rem 0;margin-top: 2rem;}
+.userList li{float: left;width: 3.5rem;height: 3.5rem;margin: .5rem calc((25% - 3.5rem) / 2);}
+.userList li a{display: block;width: 100%;height: 100%;}
+.userList li a img{display: block;width: 100%;height: 100%;}
+
+a.link{display: block;font: .9rem/2.7rem 'Microsoft YaHei';color: #000;padding: 0 2.5%;border-bottom: 1px solid #e6e6e6;width: 95%;margin: auto;}
+a.link span.fr{color: #777;font-size: .8rem;}
+
+label{display: block;font: .9rem/3 'Microsoft YaHei';border-bottom: 1px solid #e6e6e6;padding: 0 2.5%;width: 95%;margin: auto;}
+label input[type="checkbox"]{height: 2.5rem;margin: .1rem 0;width: 2.5rem;-webkit-appearance: none;-moz-appearance: none;appearance: none;background: url("../images/icon_switClose.png") no-repeat center/100% 100%;}
+label input[type="checkbox"]:checked{background: url("../images/icon_switOpen.png") no-repeat center/100% 100%;}
+
+a.quitChat{display: block;width: 95%;height: 2.5rem;font: .9rem/2.5rem 'Microsoft YaHei';text-align: center;background-color: #d33f3f;color: #fff;margin: .5rem auto 0;box-shadow: 0 3px 3px #c2d0d0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
